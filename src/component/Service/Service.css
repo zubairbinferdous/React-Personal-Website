@@ -1,0 +1,15 @@
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+}
+.service-data-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 1260px;
+}
+.service_data {
+  border: 2px solid red;
+}

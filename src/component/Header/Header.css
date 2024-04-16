@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap");
+
+.header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  height: 70px;
+  width: 100%;
+  background-color: #009e66;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 90px;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+}
+
+.logo a {
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+
+.logo a:hover {
+  color: #242323;
+  transition: all linear 0.3s;
+}
+
+.menu {
+  padding-right: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+.menu ul li a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  transition: all linear 0.3s;
+}
+.menu ul li a:hover {
+  color: #252525;
+  transition: all linear 0.3s;
+}
